@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.9.28)  30 SEP 2017 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.9.28)  27 JAN 2018 13:36
 entering extended mode
-**./resume.tex
-(resume.tex
+**B:/latex/resume/resume.tex
+(B:/latex/resume/resume.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -257,7 +257,8 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \mc@col@check@num=\count109
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 12.
- (resume.aux)
+
+(B:/latex/resume\resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -326,56 +327,26 @@ LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
 
-(resume.out) (resume.out)
+(B:/latex/resume\resume.out) (B:/latex/resume\resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+! TeX capacity exceeded, sorry [input stack size=5000].
+\@makeother #1->\catcode `#1
+                            12\relax 
+l.20 \emph{Site} \href{\textbf{adhithyan.xyz}}
+                                              {adhithyan.xyz} \\
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
-[1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
- (resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 5451 strings out of 493328
- 82216 string characters out of 3139104
- 177587 words of memory out of 3000000
- 8966 multiletter control sequences out of 15000+200000
- 8244 words of font info for 29 fonts, out of 3000000 for 9000
+ 5398 strings out of 493328
+ 81613 string characters out of 3139104
+ 372007 words of memory out of 3000000
+ 8928 multiletter control sequences out of 15000+200000
+ 4892 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,4n,28p,255b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 91378 bytes).
-PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 5000i,1n,6663p,192b,134s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
