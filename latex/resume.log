@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.8)  23 OCT 2020 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=latex 2020.2.8)  29 OCT 2020 07:52
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/adhi/Developer/other/resume/latex/resume.tex
-(/Users/adhi/Developer/other/resume/latex/resume.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -111,7 +110,7 @@ Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -179,12 +178,20 @@ LaTeX Info: Redefining \pageref on input line 6454.
 \c@Item=\count97
 \c@Hfootnote=\count98
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (default): hdvips.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count99
-\c@bookmark@seq@number=\count100
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2018/11/30 v6.88e Hyperref driver for dvips
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2018/11/30 v6.88e Hyperref definitions for pdfmark specials
+\pdf@docset=\toks17
+\pdf@box=\box28
+\pdf@toks=\toks18
+\pdf@defaulttoks=\toks19
+\HyField@AnnotCount=\count99
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -192,7 +199,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip59
-)
+))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen120
@@ -202,35 +209,34 @@ Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip60
 \enit@outerparindent=\dimen122
-\enit@toks=\toks17
-\enit@inbox=\box28
-\enit@count@id=\count101
-\enitdp@description=\count102
+\enit@toks=\toks20
+\enit@inbox=\box29
+\enit@count@id=\count102
+\enitdp@description=\count103
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count103
-\mult@box=\box29
+\c@tracingmulticols=\count104
+\mult@box=\box30
 \multicol@leftmargin=\dimen123
-\c@unbalance=\count104
-\c@collectmore=\count105
-\doublecol@number=\count106
-\multicoltolerance=\count107
-\multicolpretolerance=\count108
+\c@unbalance=\count105
+\c@collectmore=\count106
+\doublecol@number=\count107
+\multicoltolerance=\count108
+\multicolpretolerance=\count109
 \full@width=\dimen124
 \page@free=\dimen125
 \premulticols=\dimen126
 \postmulticols=\dimen127
 \multicolsep=\skip61
 \multicolbaselineskip=\skip62
-\partial@page=\box30
-\last@line=\box31
+\partial@page=\box31
+\last@line=\box32
 \maxbalancingoverflow=\dimen128
-\mult@rightbox=\box32
-\mult@grightbox=\box33
-\mult@gfirstbox=\box34
-\mult@firstbox=\box35
-\@tempa=\box36
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
 \@tempa=\box37
 \@tempa=\box38
 \@tempa=\box39
@@ -247,14 +253,15 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box50
 \@tempa=\box51
 \@tempa=\box52
-\c@columnbadness=\count109
-\c@finalcolumnbadness=\count110
+\@tempa=\box53
+\c@columnbadness=\count110
+\c@finalcolumnbadness=\count111
 \last@try=\dimen129
 \multicolovershoot=\dimen130
 \multicolundershoot=\dimen131
-\mult@nat@firstbox=\box53
-\colbreak@box=\box54
-\mc@col@check@num=\count111
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count112
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 12.
  (./resume.aux)
@@ -276,9 +283,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -311,7 +318,7 @@ LaTeX Font Info:    ... okay on input line 16.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 16.
-\AtBeginShipoutBox=\box55
+\AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -320,7 +327,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count112
+\c@section@level=\count113
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -339,7 +346,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 76--80
 
  []
@@ -354,30 +361,19 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
 [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 170.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 5473 strings out of 492616
- 83025 string characters out of 6129482
- 187207 words of memory out of 5000000
- 9375 multiletter control sequences out of 15000+600000
+ 5514 strings out of 492617
+ 83487 string characters out of 6129508
+ 192037 words of memory out of 5000000
+ 9418 multiletter control sequences out of 15000+600000
  8603 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,4n,28p,372b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 92009 bytes).
-PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29i,4n,28p,331b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on resume.dvi (2 pages, 8592 bytes).
